@@ -1,0 +1,16 @@
+[
+{
+  "modid": "minemod",
+  "name": "DesenvolvendoMinecraftMod",
+  "description": "Mod criado para o livro 'desenvolvendo minecraft'.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["NykooX"],
+  "credits": "Agradecimentos ao Mestre Nykoo",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
