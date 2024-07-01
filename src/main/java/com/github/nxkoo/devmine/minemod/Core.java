@@ -17,14 +17,17 @@ public class Core {
     @SidedProxy(clientSide = "com.github.nxkoo.devmine.minemod.proxy.ClientProxy", serverSide = "com.github.nxkoo.devmine.minemod.proxy.ServerProxy")
     public static CommonProxy proxy;
 
+    @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent $e) {
         proxy.preInit($e);
     }
 
+    @Mod.EventHandler
     public void init(FMLInitializationEvent $e) {
         proxy.init($e);
     }
 
+    @Mod.EventHandler
     public void postInit(FMLPostInitializationEvent $e) {
         proxy.postInit($e);
     }
